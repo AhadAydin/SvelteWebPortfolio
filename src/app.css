@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection{
+  background-color: #92400e;
+}
+
+* {
+  scrollbar-width: none; /* “auto” veya “thin” yerine none */
+  -ms-overflow-style: none; /* IE ve Edge Legacy */
+}
+
+body {
+  background-color: #000000; /* koyu gri örneği, Tailwind zinc-900 */
+  color: white; /* yazı rengi opsiyonel */
+  margin: 0;    /* default margin sıfırlamak için */
+  font-family: sans-serif; /* opsiyonel */
+
+  /* background-image: linear-gradient(
+    to bottom right,   
+    #6d28d9,           
+    #bef264            
+  ); */
+}
